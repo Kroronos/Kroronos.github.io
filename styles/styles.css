@@ -55,12 +55,49 @@ html, body {
 
 .section_block ul a{ 
 	display: inline-block;
+	text-decoration: none;
+	
+	font-family: 'Oxygen Mono', monospace;
+	color: #fff;
+	transition: 0.1s color;
+}
+
+.section_block ul a:hover{ 
+	color: #ff6d00;
 }
 
 .section_block ul a li{
 	padding-left: 20px;
 	padding-right: 20px;
 	display: inline-block;
+}
+
+.display_window {
+	width: 75%;
+	margin: 50px auto;
+	padding-top: calc(10px + 5%);
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: calc(10px + 5%);
+	background-color: #37474F
+}
+
+.display_window .left_display {
+	width = 50%;
+}
+
+.display_window .left_display .infobox{
+	height = 25%;
+}
+
+.display_window .right_display {
+	width = 50%;
+}
+
+.display_window canvas {
+	display: block;
+	width: 100%;
+	height: 100%; 
 }
 
 h1 {
