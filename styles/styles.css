@@ -39,24 +39,26 @@ html, body {
 }
 
 .section_block {
+	text-align: center; 
 	width: 75%;
 	margin: 50px auto;
 	padding-top: 0px;
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-bottom: 20px;
-	background-color: #37474F
+	background-color: #37474F;
 }
 
 .section_block ul {
-	margin: 20px;
+	text-align: center;
+	margin: 20px auto;
 	display: inline-block;
 }
 
 .section_block ul a{ 
-	display: inline-block;
+	display: block;
 	text-decoration: none;
-	
+	margin: auto;
 	font-family: 'Oxygen Mono', monospace;
 	color: #fff;
 	transition: 0.1s color;
@@ -66,9 +68,10 @@ html, body {
 	color: #ff6d00;
 }
 
-.section_block ul a li{
+.section_block ul li{
 	padding-left: 20px;
 	padding-right: 20px;
+	margin: 0 auto;
 	display: inline-block;
 }
 
@@ -79,25 +82,25 @@ html, body {
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-bottom: calc(10px + 5%);
-	background-color: #37474F
+	background-color: #37474F;
+	text-align: center;
 }
 
 .display_window .left_display {
-	width = 50%;
-}
-
-.display_window .left_display .infobox{
-	height = 25%;
+	margin: 0 auto;
+	display: inline-block;
+	overflow: hidden;
 }
 
 .display_window .right_display {
-	width = 50%;
+	margin: 0 auto;
+	display: inline-block;
+	overflow: hidden;
 }
+
 
 .display_window canvas {
 	display: block;
-	width: 100%;
-	height: 100%; 
 }
 
 h1 {
@@ -109,5 +112,6 @@ h1 {
 
 p {
 	font-family: 'Oxygen Mono', monospace;
+	text-align: left;
 	color: #bdbdbd
 }
