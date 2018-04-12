@@ -77,7 +77,6 @@ a.button:hover{
 	margin: 20px auto;
 	display: inline-block;
 	padding: 0;
-	font-size: 300%;
 }
 
 .section_block ul a{ 
@@ -137,4 +136,18 @@ p {
 	font-family: 'Oxygen Mono', monospace;
 	text-align: left;
 	color: #bdbdbd;
+}
+
+.applet{
+	text-decoration: none;
+	color: #fff;
+	font-size: 100%;
+}
+
+.applet:hover{ 
+	color: #ff6d00;
+}
+
+.big-font{
+	font-size: 300%;
 }
