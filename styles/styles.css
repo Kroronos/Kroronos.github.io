@@ -1,7 +1,12 @@
 html, body {
 	width: 100%;
-		margin: 0;
-		padding: 0; 
+	margin: 0;
+	padding: 0; 
+	font-family: 'Oxygen Mono', monospace;
+}
+
+* {
+	font-family: 'Oxygen Mono', monospace;
 }
 
 .navbar ul {
@@ -19,7 +24,6 @@ html, body {
 	color: white;
 	text-align: center;
 	text-decoration: none;
-	font: 20px Oldtown; 
     background: #333;
     border-right: 1px solid #fff;
 	width: calc(25% - 1px);
@@ -40,19 +44,40 @@ html, body {
 
 .section_block {
 	text-align: center; 
-	width: 75%;
+	width: 90%;
+	max-width: 760px;
 	margin: 50px auto;
-	padding-top: 0px;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-bottom: 20px;
+	padding: 0px 20px 20px 20px;
 	background-color: #37474F;
+}
+
+.section_block p {
+	/* text-align: center; */
+	color: #fff;
+}
+
+.center {
+	text-align: center;
+}
+
+a.button {
+	text-decoration: none;
+	color: #fff;
+	font-size: 130%;
+	border-radius: 6px;
+	padding: 6px 14px;
+}
+
+a.button:hover{ 
+	color: #ff6d00;
 }
 
 .section_block ul {
 	text-align: center;
 	margin: 20px auto;
 	display: inline-block;
+	padding: 0;
+	font-size: 300%;
 }
 
 .section_block ul a{ 
@@ -64,9 +89,7 @@ html, body {
 	transition: 0.1s color;
 }
 
-.section_block ul a:hover{ 
-	color: #ff6d00;
-}
+
 
 .section_block ul li{
 	padding-left: 20px;
