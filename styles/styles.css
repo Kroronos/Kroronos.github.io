@@ -88,7 +88,9 @@ a.button:hover{
 	transition: 0.1s color;
 }
 
-
+.section_block ul a:hover{
+	color: #ff6d00;
+}
 
 .section_block ul li{
 	padding-left: 20px;
